@@ -1,0 +1,30 @@
+{
+  "name": "rag-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm main.ts",
+    "dev": "ts-node-esm main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.3.1",
+    "@langchain/openai": "^0.5.12",
+    "@langchain/textsplitters": "^0.1.0",
+    "@types/node": "^22.15.30",
+    "cheerio": "^1.0.0",
+    "langchain": "^0.3.27",
+    "openai": "^5.1.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

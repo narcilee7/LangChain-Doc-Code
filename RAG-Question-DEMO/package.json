@@ -1,0 +1,28 @@
+{
+  "name": "RAG-Question-DEMO",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:cli": "tsx cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/openai": "^0.5.12",
+    "@langchain/textsplitters": "^0.1.0",
+    "@types/node": "^22.15.30",
+    "dotenv": "^16.5.0",
+    "https-proxy-agent": "^7.0.6",
+    "langchain": "^0.3.27",
+    "memory": "link:@langchain/community/vectorstores/memory",
+    "ts-node-esm": "^0.0.6",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  }
+}
