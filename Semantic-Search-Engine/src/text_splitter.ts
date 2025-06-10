@@ -8,7 +8,7 @@ const textSplitter = new RecursiveCharacterTextSplitter({
 
 const allSplits = await textSplitter.splitDocuments(docs);
 
-console.log("allSplits", allSplits);
+// console.log("allSplits", allSplits);
 
 export {
   allSplits

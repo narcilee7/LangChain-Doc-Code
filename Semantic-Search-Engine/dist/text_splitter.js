@@ -5,5 +5,5 @@ const textSplitter = new RecursiveCharacterTextSplitter({
     chunkOverlap: 200,
 });
 const allSplits = await textSplitter.splitDocuments(docs);
-console.log("allSplits", allSplits);
+// console.log("allSplits", allSplits);
 export { allSplits };
