@@ -1,0 +1,1967 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@langchain/community':
+        specifier: ^0.3.45
+        version: 0.3.45(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(zod@3.25.57))(@ibm-cloud/watsonx-ai@1.6.7)(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(axios@1.9.0)(ibm-cloud-sdk-core@5.4.0)(jsonwebtoken@9.0.2)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(pdf-parse@1.1.1)(playwright@1.52.0)(weaviate-client@3.6.0)(ws@8.18.2)
+      '@langchain/core':
+        specifier: ^0.3.57
+        version: 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      '@langchain/openai':
+        specifier: ^0.5.12
+        version: 0.5.12(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(ws@8.18.2)
+      '@langchain/textsplitters':
+        specifier: ^0.1.0
+        version: 0.1.0(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))
+      '@types/node':
+        specifier: ^22.15.30
+        version: 22.15.30
+      dotenv:
+        specifier: ^16.5.0
+        version: 16.5.0
+      langchain:
+        specifier: ^0.3.27
+        version: 0.3.27(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(axios@1.9.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(ws@8.18.2)
+      pdf-parse:
+        specifier: ^1.1.1
+        version: 1.1.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
+packages:
+
+  '@anthropic-ai/sdk@0.27.3':
+    resolution: {integrity: sha1-WSzdhzyF/6uVia5vLiUMvxUOFHU=, tarball: http://r.npm.sankuai.com/@anthropic-ai/sdk/download/@anthropic-ai/sdk-0.27.3.tgz}
+
+  '@browserbasehq/sdk@2.6.0':
+    resolution: {integrity: sha1-7Nc7Bb3G9fS1tPhd0bybjD+kCN0=, tarball: http://r.npm.sankuai.com/@browserbasehq/sdk/download/@browserbasehq/sdk-2.6.0.tgz}
+
+  '@browserbasehq/stagehand@1.14.0':
+    resolution: {integrity: sha1-eS52hybZX9PzEiOUV/w7CpMsBF0=, tarball: http://r.npm.sankuai.com/@browserbasehq/stagehand/download/@browserbasehq/stagehand-1.14.0.tgz}
+    peerDependencies:
+      '@playwright/test': ^1.42.1
+      deepmerge: ^4.3.1
+      dotenv: ^16.4.5
+      openai: ^4.62.1
+      zod: ^3.23.8
+
+  '@cfworker/json-schema@4.1.1':
+    resolution: {integrity: sha1-Sio5R+6fp7fCS+mBQigxuGdMO+Y=, tarball: http://r.npm.sankuai.com/@cfworker/json-schema/download/@cfworker/json-schema-4.1.1.tgz}
+
+  '@graphql-typed-document-node/core@3.2.0':
+    resolution: {integrity: sha1-Xz2W7GsjVK1tiii/IWodl7VCaGE=, tarball: http://r.npm.sankuai.com/@graphql-typed-document-node/core/download/@graphql-typed-document-node/core-3.2.0.tgz}
+    peerDependencies:
+      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+
+  '@grpc/grpc-js@1.13.4':
+    resolution: {integrity: sha1-ki+8SW4inF+maALSNpvxgcHfHFo=, tarball: http://r.npm.sankuai.com/@grpc/grpc-js/download/@grpc/grpc-js-1.13.4.tgz}
+    engines: {node: '>=12.10.0'}
+
+  '@grpc/proto-loader@0.7.15':
+    resolution: {integrity: sha1-TN+/NaNUYfyEOr6LniwHcLUJXmA=, tarball: http://r.npm.sankuai.com/@grpc/proto-loader/download/@grpc/proto-loader-0.7.15.tgz}
+    engines: {node: '>=6'}
+    hasBin: true
+
+  '@ibm-cloud/watsonx-ai@1.6.7':
+    resolution: {integrity: sha1-h7cY+w3TVcUv1F6Kpz3ac8+GW7A=, tarball: http://r.npm.sankuai.com/@ibm-cloud/watsonx-ai/download/@ibm-cloud/watsonx-ai-1.6.7.tgz}
+    engines: {node: '>=18.0.0'}
+
+  '@js-sdsl/ordered-map@4.4.2':
+    resolution: {integrity: sha1-kpn4KHS6ueTH+cSNhlvsv+jWkHw=, tarball: http://r.npm.sankuai.com/@js-sdsl/ordered-map/download/@js-sdsl/ordered-map-4.4.2.tgz}
+
+  '@langchain/community@0.3.45':
+    resolution: {integrity: sha1-evDP1n7mYr9PiKZVurv4CJGCYv0=, tarball: http://r.npm.sankuai.com/@langchain/community/download/@langchain/community-0.3.45.tgz}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@arcjet/redact': ^v1.0.0-alpha.23
+      '@aws-crypto/sha256-js': ^5.0.0
+      '@aws-sdk/client-bedrock-agent-runtime': ^3.749.0
+      '@aws-sdk/client-bedrock-runtime': ^3.749.0
+      '@aws-sdk/client-dynamodb': ^3.749.0
+      '@aws-sdk/client-kendra': ^3.749.0
+      '@aws-sdk/client-lambda': ^3.749.0
+      '@aws-sdk/client-s3': ^3.749.0
+      '@aws-sdk/client-sagemaker-runtime': ^3.749.0
+      '@aws-sdk/client-sfn': ^3.749.0
+      '@aws-sdk/credential-provider-node': ^3.388.0
+      '@aws-sdk/dsql-signer': '*'
+      '@azure/search-documents': ^12.0.0
+      '@azure/storage-blob': ^12.15.0
+      '@browserbasehq/sdk': '*'
+      '@browserbasehq/stagehand': ^1.0.0
+      '@clickhouse/client': ^0.2.5
+      '@cloudflare/ai': '*'
+      '@datastax/astra-db-ts': ^1.0.0
+      '@elastic/elasticsearch': ^8.4.0
+      '@getmetal/metal-sdk': '*'
+      '@getzep/zep-cloud': ^1.0.6
+      '@getzep/zep-js': ^0.9.0
+      '@gomomento/sdk': ^1.51.1
+      '@gomomento/sdk-core': ^1.51.1
+      '@google-ai/generativelanguage': '*'
+      '@google-cloud/storage': ^6.10.1 || ^7.7.0
+      '@gradientai/nodejs-sdk': ^1.2.0
+      '@huggingface/inference': ^2.6.4
+      '@huggingface/transformers': ^3.2.3
+      '@ibm-cloud/watsonx-ai': '*'
+      '@lancedb/lancedb': ^0.12.0
+      '@langchain/core': '>=0.2.21 <0.4.0'
+      '@layerup/layerup-security': ^1.5.12
+      '@libsql/client': ^0.14.0
+      '@mendable/firecrawl-js': ^1.4.3
+      '@mlc-ai/web-llm': '*'
+      '@mozilla/readability': '*'
+      '@neondatabase/serverless': '*'
+      '@notionhq/client': ^2.2.10
+      '@opensearch-project/opensearch': '*'
+      '@pinecone-database/pinecone': '*'
+      '@planetscale/database': ^1.8.0
+      '@premai/prem-sdk': ^0.3.25
+      '@qdrant/js-client-rest': ^1.8.2
+      '@raycast/api': ^1.55.2
+      '@rockset/client': ^0.9.1
+      '@smithy/eventstream-codec': ^2.0.5
+      '@smithy/protocol-http': ^3.0.6
+      '@smithy/signature-v4': ^2.0.10
+      '@smithy/util-utf8': ^2.0.0
+      '@spider-cloud/spider-client': ^0.0.21
+      '@supabase/supabase-js': ^2.45.0
+      '@tensorflow-models/universal-sentence-encoder': '*'
+      '@tensorflow/tfjs-converter': '*'
+      '@tensorflow/tfjs-core': '*'
+      '@upstash/ratelimit': ^1.1.3 || ^2.0.3
+      '@upstash/redis': ^1.20.6
+      '@upstash/vector': ^1.1.1
+      '@vercel/kv': '*'
+      '@vercel/postgres': '*'
+      '@writerai/writer-sdk': ^0.40.2
+      '@xata.io/client': ^0.28.0
+      '@zilliz/milvus2-sdk-node': '>=2.3.5'
+      apify-client: ^2.7.1
+      assemblyai: ^4.6.0
+      azion: ^1.11.1
+      better-sqlite3: '>=9.4.0 <12.0.0'
+      cassandra-driver: ^4.7.2
+      cborg: ^4.1.1
+      cheerio: ^1.0.0-rc.12
+      chromadb: '*'
+      closevector-common: 0.1.3
+      closevector-node: 0.1.6
+      closevector-web: 0.1.6
+      cohere-ai: '*'
+      convex: ^1.3.1
+      crypto-js: ^4.2.0
+      d3-dsv: ^2.0.0
+      discord.js: ^14.14.1
+      dria: ^0.0.3
+      duck-duck-scrape: ^2.2.5
+      epub2: ^3.0.1
+      fast-xml-parser: '*'
+      firebase-admin: ^11.9.0 || ^12.0.0
+      google-auth-library: '*'
+      googleapis: '*'
+      hnswlib-node: ^3.0.0
+      html-to-text: ^9.0.5
+      ibm-cloud-sdk-core: '*'
+      ignore: ^5.2.0
+      interface-datastore: ^8.2.11
+      ioredis: ^5.3.2
+      it-all: ^3.0.4
+      jsdom: '*'
+      jsonwebtoken: ^9.0.2
+      llmonitor: ^0.5.9
+      lodash: ^4.17.21
+      lunary: ^0.7.10
+      mammoth: ^1.6.0
+      mariadb: ^3.4.0
+      mem0ai: ^2.1.8
+      mongodb: '>=5.2.0'
+      mysql2: ^3.9.8
+      neo4j-driver: '*'
+      notion-to-md: ^3.1.0
+      officeparser: ^4.0.4
+      openai: '*'
+      pdf-parse: 1.1.1
+      pg: ^8.11.0
+      pg-copy-streams: ^6.0.5
+      pickleparser: ^0.2.1
+      playwright: ^1.32.1
+      portkey-ai: ^0.1.11
+      puppeteer: '*'
+      pyodide: '>=0.24.1 <0.27.0'
+      redis: '*'
+      replicate: '*'
+      sonix-speech-recognition: ^2.1.1
+      srt-parser-2: ^1.2.3
+      typeorm: ^0.3.20
+      typesense: ^1.5.3
+      usearch: ^1.1.1
+      voy-search: 0.6.2
+      weaviate-client: ^3.5.2
+      web-auth-library: ^1.0.3
+      word-extractor: '*'
+      ws: ^8.14.2
+      youtubei.js: '*'
+    peerDependenciesMeta:
+      '@arcjet/redact':
+        optional: true
+      '@aws-crypto/sha256-js':
+        optional: true
+      '@aws-sdk/client-bedrock-agent-runtime':
+        optional: true
+      '@aws-sdk/client-bedrock-runtime':
+        optional: true
+      '@aws-sdk/client-dynamodb':
+        optional: true
+      '@aws-sdk/client-kendra':
+        optional: true
+      '@aws-sdk/client-lambda':
+        optional: true
+      '@aws-sdk/client-s3':
+        optional: true
+      '@aws-sdk/client-sagemaker-runtime':
+        optional: true
+      '@aws-sdk/client-sfn':
+        optional: true
+      '@aws-sdk/credential-provider-node':
+        optional: true
+      '@aws-sdk/dsql-signer':
+        optional: true
+      '@azure/search-documents':
+        optional: true
+      '@azure/storage-blob':
+        optional: true
+      '@browserbasehq/sdk':
+        optional: true
+      '@clickhouse/client':
+        optional: true
+      '@cloudflare/ai':
+        optional: true
+      '@datastax/astra-db-ts':
+        optional: true
+      '@elastic/elasticsearch':
+        optional: true
+      '@getmetal/metal-sdk':
+        optional: true
+      '@getzep/zep-cloud':
+        optional: true
+      '@getzep/zep-js':
+        optional: true
+      '@gomomento/sdk':
+        optional: true
+      '@gomomento/sdk-core':
+        optional: true
+      '@google-ai/generativelanguage':
+        optional: true
+      '@google-cloud/storage':
+        optional: true
+      '@gradientai/nodejs-sdk':
+        optional: true
+      '@huggingface/inference':
+        optional: true
+      '@huggingface/transformers':
+        optional: true
+      '@lancedb/lancedb':
+        optional: true
+      '@layerup/layerup-security':
+        optional: true
+      '@libsql/client':
+        optional: true
+      '@mendable/firecrawl-js':
+        optional: true
+      '@mlc-ai/web-llm':
+        optional: true
+      '@mozilla/readability':
+        optional: true
+      '@neondatabase/serverless':
+        optional: true
+      '@notionhq/client':
+        optional: true
+      '@opensearch-project/opensearch':
+        optional: true
+      '@pinecone-database/pinecone':
+        optional: true
+      '@planetscale/database':
+        optional: true
+      '@premai/prem-sdk':
+        optional: true
+      '@qdrant/js-client-rest':
+        optional: true
+      '@raycast/api':
+        optional: true
+      '@rockset/client':
+        optional: true
+      '@smithy/eventstream-codec':
+        optional: true
+      '@smithy/protocol-http':
+        optional: true
+      '@smithy/signature-v4':
+        optional: true
+      '@smithy/util-utf8':
+        optional: true
+      '@spider-cloud/spider-client':
+        optional: true
+      '@supabase/supabase-js':
+        optional: true
+      '@tensorflow-models/universal-sentence-encoder':
+        optional: true
+      '@tensorflow/tfjs-converter':
+        optional: true
+      '@tensorflow/tfjs-core':
+        optional: true
+      '@upstash/ratelimit':
+        optional: true
+      '@upstash/redis':
+        optional: true
+      '@upstash/vector':
+        optional: true
+      '@vercel/kv':
+        optional: true
+      '@vercel/postgres':
+        optional: true
+      '@writerai/writer-sdk':
+        optional: true
+      '@xata.io/client':
+        optional: true
+      '@zilliz/milvus2-sdk-node':
+        optional: true
+      apify-client:
+        optional: true
+      assemblyai:
+        optional: true
+      azion:
+        optional: true
+      better-sqlite3:
+        optional: true
+      cassandra-driver:
+        optional: true
+      cborg:
+        optional: true
+      cheerio:
+        optional: true
+      chromadb:
+        optional: true
+      closevector-common:
+        optional: true
+      closevector-node:
+        optional: true
+      closevector-web:
+        optional: true
+      cohere-ai:
+        optional: true
+      convex:
+        optional: true
+      crypto-js:
+        optional: true
+      d3-dsv:
+        optional: true
+      discord.js:
+        optional: true
+      dria:
+        optional: true
+      duck-duck-scrape:
+        optional: true
+      epub2:
+        optional: true
+      fast-xml-parser:
+        optional: true
+      firebase-admin:
+        optional: true
+      google-auth-library:
+        optional: true
+      googleapis:
+        optional: true
+      hnswlib-node:
+        optional: true
+      html-to-text:
+        optional: true
+      ignore:
+        optional: true
+      interface-datastore:
+        optional: true
+      ioredis:
+        optional: true
+      it-all:
+        optional: true
+      jsdom:
+        optional: true
+      jsonwebtoken:
+        optional: true
+      llmonitor:
+        optional: true
+      lodash:
+        optional: true
+      lunary:
+        optional: true
+      mammoth:
+        optional: true
+      mariadb:
+        optional: true
+      mem0ai:
+        optional: true
+      mongodb:
+        optional: true
+      mysql2:
+        optional: true
+      neo4j-driver:
+        optional: true
+      notion-to-md:
+        optional: true
+      officeparser:
+        optional: true
+      pdf-parse:
+        optional: true
+      pg:
+        optional: true
+      pg-copy-streams:
+        optional: true
+      pickleparser:
+        optional: true
+      playwright:
+        optional: true
+      portkey-ai:
+        optional: true
+      puppeteer:
+        optional: true
+      pyodide:
+        optional: true
+      redis:
+        optional: true
+      replicate:
+        optional: true
+      sonix-speech-recognition:
+        optional: true
+      srt-parser-2:
+        optional: true
+      typeorm:
+        optional: true
+      typesense:
+        optional: true
+      usearch:
+        optional: true
+      voy-search:
+        optional: true
+      weaviate-client:
+        optional: true
+      web-auth-library:
+        optional: true
+      word-extractor:
+        optional: true
+      ws:
+        optional: true
+      youtubei.js:
+        optional: true
+
+  '@langchain/core@0.3.57':
+    resolution: {integrity: sha1-Pp2UFARoc0BfSMdh/mMr11clCpE=, tarball: http://r.npm.sankuai.com/@langchain/core/download/@langchain/core-0.3.57.tgz}
+    engines: {node: '>=18'}
+
+  '@langchain/openai@0.5.12':
+    resolution: {integrity: sha1-Gt4PkjI49z4DMP2RuYj7yz0KVok=, tarball: http://r.npm.sankuai.com/@langchain/openai/download/@langchain/openai-0.5.12.tgz}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/core': '>=0.3.48 <0.4.0'
+
+  '@langchain/textsplitters@0.1.0':
+    resolution: {integrity: sha1-83YgmSGS3wns2j371UWzamvLrkY=, tarball: http://r.npm.sankuai.com/@langchain/textsplitters/download/@langchain/textsplitters-0.1.0.tgz}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/core': '>=0.2.21 <0.4.0'
+
+  '@langchain/weaviate@0.2.0':
+    resolution: {integrity: sha1-zCFFKhTPHtPFM6dNrjZuy0F6VIA=, tarball: http://r.npm.sankuai.com/@langchain/weaviate/download/@langchain/weaviate-0.2.0.tgz}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/core': '>=0.2.21 <0.4.0'
+
+  '@playwright/test@1.52.0':
+    resolution: {integrity: sha1-Jn7FlbQ6j0+l5ETqUDaJYp6Rpbg=, tarball: http://r.npm.sankuai.com/@playwright/test/download/@playwright/test-1.52.0.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  '@protobufjs/aspromise@1.1.2':
+    resolution: {integrity: sha1-m4sMxmPWaafY9vXQiToU00jzD78=, tarball: http://r.npm.sankuai.com/@protobufjs/aspromise/download/@protobufjs/aspromise-1.1.2.tgz}
+
+  '@protobufjs/base64@1.1.2':
+    resolution: {integrity: sha1-TIVzDlm5ofHzSQR9vyQpYDS7JzU=, tarball: http://r.npm.sankuai.com/@protobufjs/base64/download/@protobufjs/base64-1.1.2.tgz}
+
+  '@protobufjs/codegen@2.0.4':
+    resolution: {integrity: sha1-fvN/DQEPsCitGtWXIuUG2SYoFcs=, tarball: http://r.npm.sankuai.com/@protobufjs/codegen/download/@protobufjs/codegen-2.0.4.tgz}
+
+  '@protobufjs/eventemitter@1.1.0':
+    resolution: {integrity: sha1-NVy8mLr61ZePntCV85diHx0Ga3A=, tarball: http://r.npm.sankuai.com/@protobufjs/eventemitter/download/@protobufjs/eventemitter-1.1.0.tgz}
+
+  '@protobufjs/fetch@1.1.0':
+    resolution: {integrity: sha1-upn7WYYUr2VwDBYZ/wbUVLDYTEU=, tarball: http://r.npm.sankuai.com/@protobufjs/fetch/download/@protobufjs/fetch-1.1.0.tgz}
+
+  '@protobufjs/float@1.0.2':
+    resolution: {integrity: sha1-Xp4avctz/Ap8uLKR33jIy9l7h9E=, tarball: http://r.npm.sankuai.com/@protobufjs/float/download/@protobufjs/float-1.0.2.tgz}
+
+  '@protobufjs/inquire@1.1.0':
+    resolution: {integrity: sha1-/yAOPnzyQp4tyvwRQIKOjMY48Ik=, tarball: http://r.npm.sankuai.com/@protobufjs/inquire/download/@protobufjs/inquire-1.1.0.tgz}
+
+  '@protobufjs/path@1.1.2':
+    resolution: {integrity: sha1-bMKyDFya1q0NzP0hynZz2Nf79o0=, tarball: http://r.npm.sankuai.com/@protobufjs/path/download/@protobufjs/path-1.1.2.tgz}
+
+  '@protobufjs/pool@1.1.0':
+    resolution: {integrity: sha1-Cf0V8tbTq/qbZbw2ZQbWrXhG/1Q=, tarball: http://r.npm.sankuai.com/@protobufjs/pool/download/@protobufjs/pool-1.1.0.tgz}
+
+  '@protobufjs/utf8@1.1.0':
+    resolution: {integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=, tarball: http://r.npm.sankuai.com/@protobufjs/utf8/download/@protobufjs/utf8-1.1.0.tgz}
+
+  '@tokenizer/token@0.3.0':
+    resolution: {integrity: sha1-/pipP+eJJH6ZjHXnTpx8YyF6onY=, tarball: http://r.npm.sankuai.com/@tokenizer/token/download/@tokenizer/token-0.3.0.tgz}
+
+  '@types/debug@4.1.12':
+    resolution: {integrity: sha1-oVXyFpCHGVNBDfS2tvUxh/BQCRc=, tarball: http://r.npm.sankuai.com/@types/debug/download/@types/debug-4.1.12.tgz}
+
+  '@types/ms@2.1.0':
+    resolution: {integrity: sha1-BSqmekjszEMJ1/AZG35BQ0uQu3g=, tarball: http://r.npm.sankuai.com/@types/ms/download/@types/ms-2.1.0.tgz}
+
+  '@types/node-fetch@2.6.12':
+    resolution: {integrity: sha1-irXD74Mw8TEAp0eeLNVtM4aDCgM=, tarball: http://r.npm.sankuai.com/@types/node-fetch/download/@types/node-fetch-2.6.12.tgz}
+
+  '@types/node@18.19.111':
+    resolution: {integrity: sha1-6VuJ78JMxiWDS0O81wvVWRpd+6U=, tarball: http://r.npm.sankuai.com/@types/node/download/@types/node-18.19.111.tgz}
+
+  '@types/node@22.15.30':
+    resolution: {integrity: sha1-OiBDF4PijdCwMm+EqzhqLsgdkh0=, tarball: http://r.npm.sankuai.com/@types/node/download/@types/node-22.15.30.tgz}
+
+  '@types/retry@0.12.0':
+    resolution: {integrity: sha1-KzXsz87n04zXKtmSMvvVi/+zyE0=, tarball: http://r.npm.sankuai.com/@types/retry/download/@types/retry-0.12.0.tgz}
+
+  '@types/tough-cookie@4.0.5':
+    resolution: {integrity: sha1-y24qaRtwyxd8bjrpwdLosuqM0wQ=, tarball: http://r.npm.sankuai.com/@types/tough-cookie/download/@types/tough-cookie-4.0.5.tgz}
+
+  '@types/uuid@10.0.0':
+    resolution: {integrity: sha1-6cB/5Q2g9T3CSXDMqU1hn/A/b20=, tarball: http://r.npm.sankuai.com/@types/uuid/download/@types/uuid-10.0.0.tgz}
+
+  abort-controller-x@0.4.3:
+    resolution: {integrity: sha1-/yaXiDhvq9WKe27qr8ts9VwpWOA=, tarball: http://r.npm.sankuai.com/abort-controller-x/download/abort-controller-x-0.4.3.tgz}
+
+  abort-controller@3.0.0:
+    resolution: {integrity: sha1-6vVNU7YrrkE46AnKIlyEOabvs5I=, tarball: http://r.npm.sankuai.com/abort-controller/download/abort-controller-3.0.0.tgz}
+    engines: {node: '>=6.5'}
+
+  agentkeepalive@4.6.0:
+    resolution: {integrity: sha1-Nfc+lLP0C/ZfEFIZxiOtGcE26mo=, tarball: http://r.npm.sankuai.com/agentkeepalive/download/agentkeepalive-4.6.0.tgz}
+    engines: {node: '>= 8.0.0'}
+
+  ansi-regex@5.0.1:
+    resolution: {integrity: sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=, tarball: http://r.npm.sankuai.com/ansi-regex/download/ansi-regex-5.0.1.tgz}
+    engines: {node: '>=8'}
+
+  ansi-styles@4.3.0:
+    resolution: {integrity: sha1-7dgDYornHATIWuegkG7a00tkiTc=, tarball: http://r.npm.sankuai.com/ansi-styles/download/ansi-styles-4.3.0.tgz}
+    engines: {node: '>=8'}
+
+  ansi-styles@5.2.0:
+    resolution: {integrity: sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=, tarball: http://r.npm.sankuai.com/ansi-styles/download/ansi-styles-5.2.0.tgz}
+    engines: {node: '>=10'}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=, tarball: http://r.npm.sankuai.com/argparse/download/argparse-2.0.1.tgz}
+
+  asynckit@0.4.0:
+    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=, tarball: http://r.npm.sankuai.com/asynckit/download/asynckit-0.4.0.tgz}
+
+  axios@1.9.0:
+    resolution: {integrity: sha1-JVNOO3K1RUAHfTMEb3fjuNcIGQE=, tarball: http://r.npm.sankuai.com/axios/download/axios-1.9.0.tgz}
+
+  base64-js@1.5.1:
+    resolution: {integrity: sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=, tarball: http://r.npm.sankuai.com/base64-js/download/base64-js-1.5.1.tgz}
+
+  binary-extensions@2.3.0:
+    resolution: {integrity: sha1-9uFKl4WNMnJSIAJC1Mz+UixEVSI=, tarball: http://r.npm.sankuai.com/binary-extensions/download/binary-extensions-2.3.0.tgz}
+    engines: {node: '>=8'}
+
+  buffer-equal-constant-time@1.0.1:
+    resolution: {integrity: sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=, tarball: http://r.npm.sankuai.com/buffer-equal-constant-time/download/buffer-equal-constant-time-1.0.1.tgz}
+
+  buffer@6.0.3:
+    resolution: {integrity: sha1-Ks5XhFnMj74qcKqo9S7mO2p0xsY=, tarball: http://r.npm.sankuai.com/buffer/download/buffer-6.0.3.tgz}
+
+  call-bind-apply-helpers@1.0.2:
+    resolution: {integrity: sha1-S1QowiK+mF15w9gmV0edvgtZstY=, tarball: http://r.npm.sankuai.com/call-bind-apply-helpers/download/call-bind-apply-helpers-1.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  camelcase@6.3.0:
+    resolution: {integrity: sha1-VoW5XrIJrJwMF3Rnd4ychN9Yupo=, tarball: http://r.npm.sankuai.com/camelcase/download/camelcase-6.3.0.tgz}
+    engines: {node: '>=10'}
+
+  chalk@4.1.2:
+    resolution: {integrity: sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=, tarball: http://r.npm.sankuai.com/chalk/download/chalk-4.1.2.tgz}
+    engines: {node: '>=10'}
+
+  cliui@8.0.1:
+    resolution: {integrity: sha1-DASwddsCy/5g3I5s8vVIaxo2CKo=, tarball: http://r.npm.sankuai.com/cliui/download/cliui-8.0.1.tgz}
+    engines: {node: '>=12'}
+
+  color-convert@2.0.1:
+    resolution: {integrity: sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=, tarball: http://r.npm.sankuai.com/color-convert/download/color-convert-2.0.1.tgz}
+    engines: {node: '>=7.0.0'}
+
+  color-name@1.1.4:
+    resolution: {integrity: sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=, tarball: http://r.npm.sankuai.com/color-name/download/color-name-1.1.4.tgz}
+
+  combined-stream@1.0.8:
+    resolution: {integrity: sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=, tarball: http://r.npm.sankuai.com/combined-stream/download/combined-stream-1.0.8.tgz}
+    engines: {node: '>= 0.8'}
+
+  console-table-printer@2.14.2:
+    resolution: {integrity: sha1-W7R0ix6zbeDNLB02aI/8Ena0LLk=, tarball: http://r.npm.sankuai.com/console-table-printer/download/console-table-printer-2.14.2.tgz}
+
+  cross-fetch@3.2.0:
+    resolution: {integrity: sha1-NOkZL1O8dX1mFDBNnl5vtO23guM=, tarball: http://r.npm.sankuai.com/cross-fetch/download/cross-fetch-3.2.0.tgz}
+
+  debug@3.2.7:
+    resolution: {integrity: sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=, tarball: http://r.npm.sankuai.com/debug/download/debug-3.2.7.tgz}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  debug@4.4.1:
+    resolution: {integrity: sha1-5ai8bLxMbNPmQwiwaTo9T6VQGJs=, tarball: http://r.npm.sankuai.com/debug/download/debug-4.4.1.tgz}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  decamelize@1.2.0:
+    resolution: {integrity: sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=, tarball: http://r.npm.sankuai.com/decamelize/download/decamelize-1.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+
+  deepmerge@4.3.1:
+    resolution: {integrity: sha1-RLXyFHzTsA1LVhN2hZZvJv0l3Uo=, tarball: http://r.npm.sankuai.com/deepmerge/download/deepmerge-4.3.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=, tarball: http://r.npm.sankuai.com/delayed-stream/download/delayed-stream-1.0.0.tgz}
+    engines: {node: '>=0.4.0'}
+
+  dotenv@16.5.0:
+    resolution: {integrity: sha1-CStJ8l+AjwIAUAUdH/JY5ATHhpI=, tarball: http://r.npm.sankuai.com/dotenv/download/dotenv-16.5.0.tgz}
+    engines: {node: '>=12'}
+
+  dunder-proto@1.0.1:
+    resolution: {integrity: sha1-165mfh3INIL4tw/Q9u78UNow9Yo=, tarball: http://r.npm.sankuai.com/dunder-proto/download/dunder-proto-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  ecdsa-sig-formatter@1.0.11:
+    resolution: {integrity: sha1-rg8PothQRe8UqBfao86azQSJ5b8=, tarball: http://r.npm.sankuai.com/ecdsa-sig-formatter/download/ecdsa-sig-formatter-1.0.11.tgz}
+
+  emoji-regex@8.0.0:
+    resolution: {integrity: sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=, tarball: http://r.npm.sankuai.com/emoji-regex/download/emoji-regex-8.0.0.tgz}
+
+  es-define-property@1.0.1:
+    resolution: {integrity: sha1-mD6y+aZyTpMD9hrd8BHHLgngsPo=, tarball: http://r.npm.sankuai.com/es-define-property/download/es-define-property-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-errors@1.3.0:
+    resolution: {integrity: sha1-BfdaJdq5jk+x3NXhRywFRtUFfI8=, tarball: http://r.npm.sankuai.com/es-errors/download/es-errors-1.3.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-object-atoms@1.1.1:
+    resolution: {integrity: sha1-HE8sSDcydZfOadLKGQp/3RcjOME=, tarball: http://r.npm.sankuai.com/es-object-atoms/download/es-object-atoms-1.1.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-set-tostringtag@2.1.0:
+    resolution: {integrity: sha1-8x274MGDsAptJutjJcgQwP0YvU0=, tarball: http://r.npm.sankuai.com/es-set-tostringtag/download/es-set-tostringtag-2.1.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  escalade@3.2.0:
+    resolution: {integrity: sha1-ARo/aYVroYnf+n3I/M6Z0qh5A+U=, tarball: http://r.npm.sankuai.com/escalade/download/escalade-3.2.0.tgz}
+    engines: {node: '>=6'}
+
+  event-target-shim@5.0.1:
+    resolution: {integrity: sha1-XU0+vflYPWOlMzzi3rdICrKwV4k=, tarball: http://r.npm.sankuai.com/event-target-shim/download/event-target-shim-5.0.1.tgz}
+    engines: {node: '>=6'}
+
+  eventemitter3@4.0.7:
+    resolution: {integrity: sha1-Lem2j2Uo1WRO9cWVJqG0oHMGFp8=, tarball: http://r.npm.sankuai.com/eventemitter3/download/eventemitter3-4.0.7.tgz}
+
+  events@3.3.0:
+    resolution: {integrity: sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA=, tarball: http://r.npm.sankuai.com/events/download/events-3.3.0.tgz}
+    engines: {node: '>=0.8.x'}
+
+  expr-eval@2.0.2:
+    resolution: {integrity: sha1-+m8ESnsMk/3oMJVOucWw9/vH4gE=, tarball: http://r.npm.sankuai.com/expr-eval/download/expr-eval-2.0.2.tgz}
+
+  extend@3.0.2:
+    resolution: {integrity: sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=, tarball: http://r.npm.sankuai.com/extend/download/extend-3.0.2.tgz}
+
+  file-type@16.5.4:
+    resolution: {integrity: sha1-R0+09wS+5CdoH5jdOQBYoXKmwv0=, tarball: http://r.npm.sankuai.com/file-type/download/file-type-16.5.4.tgz}
+    engines: {node: '>=10'}
+
+  flat@5.0.2:
+    resolution: {integrity: sha1-jKb+MyBp/6nTJMMnGYxZglnOskE=, tarball: http://r.npm.sankuai.com/flat/download/flat-5.0.2.tgz}
+    hasBin: true
+
+  follow-redirects@1.15.9:
+    resolution: {integrity: sha1-pgT6EORDv5jKlCKNnuvMLoosjuE=, tarball: http://r.npm.sankuai.com/follow-redirects/download/follow-redirects-1.15.9.tgz}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  form-data-encoder@1.7.2:
+    resolution: {integrity: sha1-Hxrj3M9Y7UaQuG2H5PV8ZU+6sEA=, tarball: http://r.npm.sankuai.com/form-data-encoder/download/form-data-encoder-1.7.2.tgz}
+
+  form-data@4.0.0:
+    resolution: {integrity: sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=, tarball: http://r.npm.sankuai.com/form-data/download/form-data-4.0.0.tgz}
+    engines: {node: '>= 6'}
+
+  form-data@4.0.3:
+    resolution: {integrity: sha1-YIsbPz4ovg/M9ZAfyF+zZB5c8K4=, tarball: http://r.npm.sankuai.com/form-data/download/form-data-4.0.3.tgz}
+    engines: {node: '>= 6'}
+
+  formdata-node@4.4.1:
+    resolution: {integrity: sha1-I/aly5y1UxWRLL7E/3sPWbvRkeI=, tarball: http://r.npm.sankuai.com/formdata-node/download/formdata-node-4.4.1.tgz}
+    engines: {node: '>= 12.20'}
+
+  fsevents@2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: http://r.npm.sankuai.com/fsevents/download/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  function-bind@1.1.2:
+    resolution: {integrity: sha1-LALYZNl/PqbIgwxGTL0Rq26rehw=, tarball: http://r.npm.sankuai.com/function-bind/download/function-bind-1.1.2.tgz}
+
+  get-caller-file@2.0.5:
+    resolution: {integrity: sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=, tarball: http://r.npm.sankuai.com/get-caller-file/download/get-caller-file-2.0.5.tgz}
+    engines: {node: 6.* || 8.* || >= 10.*}
+
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha1-dD8OO2lkqTpUke0b/6rgVNf5jQE=, tarball: http://r.npm.sankuai.com/get-intrinsic/download/get-intrinsic-1.3.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  get-proto@1.0.1:
+    resolution: {integrity: sha1-FQs/J0OGnvPoUewMSdFbHRTQDuE=, tarball: http://r.npm.sankuai.com/get-proto/download/get-proto-1.0.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  gopd@1.2.0:
+    resolution: {integrity: sha1-ifVrghe9vIgCvSmd9tfxCB1+UaE=, tarball: http://r.npm.sankuai.com/gopd/download/gopd-1.2.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  graphql-request@6.1.0:
+    resolution: {integrity: sha1-9OshB5Z688elkH6zExxnHqyJvk8=, tarball: http://r.npm.sankuai.com/graphql-request/download/graphql-request-6.1.0.tgz}
+    peerDependencies:
+      graphql: 14 - 16
+
+  graphql@16.11.0:
+    resolution: {integrity: sha1-ltF/ZjcGeAJ/31my1MILTvqopjM=, tarball: http://r.npm.sankuai.com/graphql/download/graphql-16.11.0.tgz}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+
+  has-flag@4.0.0:
+    resolution: {integrity: sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=, tarball: http://r.npm.sankuai.com/has-flag/download/has-flag-4.0.0.tgz}
+    engines: {node: '>=8'}
+
+  has-symbols@1.1.0:
+    resolution: {integrity: sha1-/JxqeDoISVHQuXH+EBjegTcHozg=, tarball: http://r.npm.sankuai.com/has-symbols/download/has-symbols-1.1.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  has-tostringtag@1.0.2:
+    resolution: {integrity: sha1-LNxC1AvvLltO6rfAGnPFTOerWrw=, tarball: http://r.npm.sankuai.com/has-tostringtag/download/has-tostringtag-1.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.2:
+    resolution: {integrity: sha1-AD6vkb563DcuhOxZ3DclLO24AAM=, tarball: http://r.npm.sankuai.com/hasown/download/hasown-2.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  humanize-ms@1.2.1:
+    resolution: {integrity: sha1-xG4xWaKT9riW2ikxbYtv6Lt5u+0=, tarball: http://r.npm.sankuai.com/humanize-ms/download/humanize-ms-1.2.1.tgz}
+
+  ibm-cloud-sdk-core@5.4.0:
+    resolution: {integrity: sha1-DDPPJlmnsFxkvYvvqTpLAvsv9eI=, tarball: http://r.npm.sankuai.com/ibm-cloud-sdk-core/download/ibm-cloud-sdk-core-5.4.0.tgz}
+    engines: {node: '>=18'}
+
+  ieee754@1.2.1:
+    resolution: {integrity: sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=, tarball: http://r.npm.sankuai.com/ieee754/download/ieee754-1.2.1.tgz}
+
+  is-fullwidth-code-point@3.0.0:
+    resolution: {integrity: sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=, tarball: http://r.npm.sankuai.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz}
+    engines: {node: '>=8'}
+
+  isstream@0.1.2:
+    resolution: {integrity: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=, tarball: http://r.npm.sankuai.com/isstream/download/isstream-0.1.2.tgz}
+
+  js-tiktoken@1.0.20:
+    resolution: {integrity: sha1-+iczvxR6yvG9z5q4qHjnnFgclfI=, tarball: http://r.npm.sankuai.com/js-tiktoken/download/js-tiktoken-1.0.20.tgz}
+
+  js-yaml@4.1.0:
+    resolution: {integrity: sha1-wftl+PUBeQHN0slRhkuhhFihBgI=, tarball: http://r.npm.sankuai.com/js-yaml/download/js-yaml-4.1.0.tgz}
+    hasBin: true
+
+  jsonpointer@5.0.1:
+    resolution: {integrity: sha1-IRDgrwkA/TdGe1kH7NE6eIShtVk=, tarball: http://r.npm.sankuai.com/jsonpointer/download/jsonpointer-5.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  jsonwebtoken@9.0.2:
+    resolution: {integrity: sha1-Zf+R9KvvF4RpfUCVK7GZjFBMqvM=, tarball: http://r.npm.sankuai.com/jsonwebtoken/download/jsonwebtoken-9.0.2.tgz}
+    engines: {node: '>=12', npm: '>=6'}
+
+  jwa@1.4.2:
+    resolution: {integrity: sha1-FgEaxttI3nsQJ3fleJeQFSDux7k=, tarball: http://r.npm.sankuai.com/jwa/download/jwa-1.4.2.tgz}
+
+  jws@3.2.2:
+    resolution: {integrity: sha1-ABCZ82OUaMlBQADpmZX6UvtHgwQ=, tarball: http://r.npm.sankuai.com/jws/download/jws-3.2.2.tgz}
+
+  langchain@0.3.27:
+    resolution: {integrity: sha1-4O1oZ2Xbo4CfkKIUEQvuRFzyQKg=, tarball: http://r.npm.sankuai.com/langchain/download/langchain-0.3.27.tgz}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/anthropic': '*'
+      '@langchain/aws': '*'
+      '@langchain/cerebras': '*'
+      '@langchain/cohere': '*'
+      '@langchain/core': '>=0.2.21 <0.4.0'
+      '@langchain/deepseek': '*'
+      '@langchain/google-genai': '*'
+      '@langchain/google-vertexai': '*'
+      '@langchain/google-vertexai-web': '*'
+      '@langchain/groq': '*'
+      '@langchain/mistralai': '*'
+      '@langchain/ollama': '*'
+      '@langchain/xai': '*'
+      axios: '*'
+      cheerio: '*'
+      handlebars: ^4.7.8
+      peggy: ^3.0.2
+      typeorm: '*'
+    peerDependenciesMeta:
+      '@langchain/anthropic':
+        optional: true
+      '@langchain/aws':
+        optional: true
+      '@langchain/cerebras':
+        optional: true
+      '@langchain/cohere':
+        optional: true
+      '@langchain/deepseek':
+        optional: true
+      '@langchain/google-genai':
+        optional: true
+      '@langchain/google-vertexai':
+        optional: true
+      '@langchain/google-vertexai-web':
+        optional: true
+      '@langchain/groq':
+        optional: true
+      '@langchain/mistralai':
+        optional: true
+      '@langchain/ollama':
+        optional: true
+      '@langchain/xai':
+        optional: true
+      axios:
+        optional: true
+      cheerio:
+        optional: true
+      handlebars:
+        optional: true
+      peggy:
+        optional: true
+      typeorm:
+        optional: true
+
+  langsmith@0.3.30:
+    resolution: {integrity: sha1-gXgD8i8ev3u/mx9BHGp/B8RqndE=, tarball: http://r.npm.sankuai.com/langsmith/download/langsmith-0.3.30.tgz}
+    peerDependencies:
+      openai: '*'
+    peerDependenciesMeta:
+      openai:
+        optional: true
+
+  lodash.camelcase@4.3.0:
+    resolution: {integrity: sha1-soqmKIorn8ZRA1x3EfZathkDMaY=, tarball: http://r.npm.sankuai.com/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz}
+
+  lodash.includes@4.3.0:
+    resolution: {integrity: sha1-YLuYqHy5I8aMoeUTJUgzFISfVT8=, tarball: http://r.npm.sankuai.com/lodash.includes/download/lodash.includes-4.3.0.tgz}
+
+  lodash.isboolean@3.0.3:
+    resolution: {integrity: sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=, tarball: http://r.npm.sankuai.com/lodash.isboolean/download/lodash.isboolean-3.0.3.tgz}
+
+  lodash.isinteger@4.0.4:
+    resolution: {integrity: sha1-YZwK89A/iwTDH1iChAt3sRzWg0M=, tarball: http://r.npm.sankuai.com/lodash.isinteger/download/lodash.isinteger-4.0.4.tgz}
+
+  lodash.isnumber@3.0.3:
+    resolution: {integrity: sha1-POdoEMWSjQM1IwGsKHMX8RwLH/w=, tarball: http://r.npm.sankuai.com/lodash.isnumber/download/lodash.isnumber-3.0.3.tgz}
+
+  lodash.isplainobject@4.0.6:
+    resolution: {integrity: sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=, tarball: http://r.npm.sankuai.com/lodash.isplainobject/download/lodash.isplainobject-4.0.6.tgz}
+
+  lodash.isstring@4.0.1:
+    resolution: {integrity: sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=, tarball: http://r.npm.sankuai.com/lodash.isstring/download/lodash.isstring-4.0.1.tgz}
+
+  lodash.once@4.1.1:
+    resolution: {integrity: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=, tarball: http://r.npm.sankuai.com/lodash.once/download/lodash.once-4.1.1.tgz}
+
+  long@5.3.2:
+    resolution: {integrity: sha1-HYRGMJWZkmLX17f4v9SozFUWf4M=, tarball: http://r.npm.sankuai.com/long/download/long-5.3.2.tgz}
+
+  math-intrinsics@1.1.0:
+    resolution: {integrity: sha1-oN10voHiqlwvJ+Zc4oNgXuTit/k=, tarball: http://r.npm.sankuai.com/math-intrinsics/download/math-intrinsics-1.1.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha1-u6vNwChZ9JhzAchW4zh85exDv3A=, tarball: http://r.npm.sankuai.com/mime-db/download/mime-db-1.52.0.tgz}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=, tarball: http://r.npm.sankuai.com/mime-types/download/mime-types-2.1.35.tgz}
+    engines: {node: '>= 0.6'}
+
+  ms@2.1.3:
+    resolution: {integrity: sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=, tarball: http://r.npm.sankuai.com/ms/download/ms-2.1.3.tgz}
+
+  mustache@4.2.0:
+    resolution: {integrity: sha1-5YkjJNYKEuycKnM1ntylKXK/b2Q=, tarball: http://r.npm.sankuai.com/mustache/download/mustache-4.2.0.tgz}
+    hasBin: true
+
+  nice-grpc-client-middleware-retry@3.1.11:
+    resolution: {integrity: sha1-T8ASi4kdGEtsmK87/WrKG2CKP9E=, tarball: http://r.npm.sankuai.com/nice-grpc-client-middleware-retry/download/nice-grpc-client-middleware-retry-3.1.11.tgz}
+
+  nice-grpc-common@2.0.2:
+    resolution: {integrity: sha1-5q7rsr0Z2HEUs1HikeMNed04rPc=, tarball: http://r.npm.sankuai.com/nice-grpc-common/download/nice-grpc-common-2.0.2.tgz}
+
+  nice-grpc@2.1.12:
+    resolution: {integrity: sha1-Vv/cxNW8PQJxwXYhBoDEvRDFFJs=, tarball: http://r.npm.sankuai.com/nice-grpc/download/nice-grpc-2.1.12.tgz}
+
+  node-domexception@1.0.0:
+    resolution: {integrity: sha1-aIjbRqH3HAt2s/dVUBa2P+ZHZuU=, tarball: http://r.npm.sankuai.com/node-domexception/download/node-domexception-1.0.0.tgz}
+    engines: {node: '>=10.5.0'}
+
+  node-ensure@0.0.0:
+    resolution: {integrity: sha1-7K52QVDemYYexcgQ/V0Jaxg5Mqc=, tarball: http://r.npm.sankuai.com/node-ensure/download/node-ensure-0.0.0.tgz}
+
+  node-fetch@2.7.0:
+    resolution: {integrity: sha1-0PD6bj4twdJ+/NitmdVQvalNGH0=, tarball: http://r.npm.sankuai.com/node-fetch/download/node-fetch-2.7.0.tgz}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+
+  openai@4.104.0:
+    resolution: {integrity: sha1-xIl2XcBRuVAZhF2rZLDlIHyuTTA=, tarball: http://r.npm.sankuai.com/openai/download/openai-4.104.0.tgz}
+    hasBin: true
+    peerDependencies:
+      ws: ^8.18.0
+      zod: ^3.23.8
+    peerDependenciesMeta:
+      ws:
+        optional: true
+      zod:
+        optional: true
+
+  openapi-types@12.1.3:
+    resolution: {integrity: sha1-RxmV6ybEuXt701aqz3uRtz53fdM=, tarball: http://r.npm.sankuai.com/openapi-types/download/openapi-types-12.1.3.tgz}
+
+  p-finally@1.0.0:
+    resolution: {integrity: sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=, tarball: http://r.npm.sankuai.com/p-finally/download/p-finally-1.0.0.tgz}
+    engines: {node: '>=4'}
+
+  p-queue@6.6.2:
+    resolution: {integrity: sha1-IGip3PjmfdDsPnory3aBD6qF5CY=, tarball: http://r.npm.sankuai.com/p-queue/download/p-queue-6.6.2.tgz}
+    engines: {node: '>=8'}
+
+  p-retry@4.6.2:
+    resolution: {integrity: sha1-m6rnGEBX7dThcjHO4EJkEG4JKhY=, tarball: http://r.npm.sankuai.com/p-retry/download/p-retry-4.6.2.tgz}
+    engines: {node: '>=8'}
+
+  p-timeout@3.2.0:
+    resolution: {integrity: sha1-x+F6vJcdKnli74NiazXWNazyPf4=, tarball: http://r.npm.sankuai.com/p-timeout/download/p-timeout-3.2.0.tgz}
+    engines: {node: '>=8'}
+
+  pdf-parse@1.1.1:
+    resolution: {integrity: sha1-dF4HQIZ5VIs5lf+Jb9OOluGdFKc=, tarball: http://r.npm.sankuai.com/pdf-parse/download/pdf-parse-1.1.1.tgz}
+    engines: {node: '>=6.8.1'}
+
+  peek-readable@4.1.0:
+    resolution: {integrity: sha1-Ts4REb9cKtiGfDFMgTVoR+imLnI=, tarball: http://r.npm.sankuai.com/peek-readable/download/peek-readable-4.1.0.tgz}
+    engines: {node: '>=8'}
+
+  playwright-core@1.52.0:
+    resolution: {integrity: sha1-I48fDD7dTrugQ0zj9EAZADGaPco=, tarball: http://r.npm.sankuai.com/playwright-core/download/playwright-core-1.52.0.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  playwright@1.52.0:
+    resolution: {integrity: sha1-JsuaYzRmUeHFTIgFrP2FaDFz1L0=, tarball: http://r.npm.sankuai.com/playwright/download/playwright-1.52.0.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  process@0.11.10:
+    resolution: {integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=, tarball: http://r.npm.sankuai.com/process/download/process-0.11.10.tgz}
+    engines: {node: '>= 0.6.0'}
+
+  protobufjs@7.5.3:
+    resolution: {integrity: sha1-E/lanjyEZpmV7DZS2yrC+wC4k2M=, tarball: http://r.npm.sankuai.com/protobufjs/download/protobufjs-7.5.3.tgz}
+    engines: {node: '>=12.0.0'}
+
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=, tarball: http://r.npm.sankuai.com/proxy-from-env/download/proxy-from-env-1.1.0.tgz}
+
+  psl@1.15.0:
+    resolution: {integrity: sha1-vazjGJbx2XzsannoIkiYzpPZdMY=, tarball: http://r.npm.sankuai.com/psl/download/psl-1.15.0.tgz}
+
+  punycode@2.3.1:
+    resolution: {integrity: sha1-AnQi4vrsCyXhVJw+G9gwm5EztuU=, tarball: http://r.npm.sankuai.com/punycode/download/punycode-2.3.1.tgz}
+    engines: {node: '>=6'}
+
+  querystringify@2.2.0:
+    resolution: {integrity: sha1-M0WUG0FTy50ILY7uTNogFqmu9/Y=, tarball: http://r.npm.sankuai.com/querystringify/download/querystringify-2.2.0.tgz}
+
+  readable-stream@4.7.0:
+    resolution: {integrity: sha1-ztvYoRRsE9//jasUBoAo1YwVrJE=, tarball: http://r.npm.sankuai.com/readable-stream/download/readable-stream-4.7.0.tgz}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  readable-web-to-node-stream@3.0.4:
+    resolution: {integrity: sha1-OSujdwevW/Ytclw2wbXW70EZ7vw=, tarball: http://r.npm.sankuai.com/readable-web-to-node-stream/download/readable-web-to-node-stream-3.0.4.tgz}
+    engines: {node: '>=8'}
+
+  require-directory@2.1.1:
+    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=, tarball: http://r.npm.sankuai.com/require-directory/download/require-directory-2.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  requires-port@1.0.0:
+    resolution: {integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=, tarball: http://r.npm.sankuai.com/requires-port/download/requires-port-1.0.0.tgz}
+
+  retry-axios@2.6.0:
+    resolution: {integrity: sha1-1Nxcio5zmC4mpwXkajPfmaKHI+A=, tarball: http://r.npm.sankuai.com/retry-axios/download/retry-axios-2.6.0.tgz}
+    engines: {node: '>=10.7.0'}
+    peerDependencies:
+      axios: '*'
+
+  retry@0.13.1:
+    resolution: {integrity: sha1-GFsVh6z2eRnWOzVzSeA1N7JIRlg=, tarball: http://r.npm.sankuai.com/retry/download/retry-0.13.1.tgz}
+    engines: {node: '>= 4'}
+
+  safe-buffer@5.2.1:
+    resolution: {integrity: sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=, tarball: http://r.npm.sankuai.com/safe-buffer/download/safe-buffer-5.2.1.tgz}
+
+  semver@7.7.2:
+    resolution: {integrity: sha1-Z9mf3NNc7CHm+Lh6f9UVoz+YK1g=, tarball: http://r.npm.sankuai.com/semver/download/semver-7.7.2.tgz}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  simple-wcswidth@1.0.1:
+    resolution: {integrity: sha1-irGKwK40L52bYpYE5U0qoeywGLI=, tarball: http://r.npm.sankuai.com/simple-wcswidth/download/simple-wcswidth-1.0.1.tgz}
+
+  string-width@4.2.3:
+    resolution: {integrity: sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA=, tarball: http://r.npm.sankuai.com/string-width/download/string-width-4.2.3.tgz}
+    engines: {node: '>=8'}
+
+  string_decoder@1.3.0:
+    resolution: {integrity: sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=, tarball: http://r.npm.sankuai.com/string_decoder/download/string_decoder-1.3.0.tgz}
+
+  strip-ansi@6.0.1:
+    resolution: {integrity: sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=, tarball: http://r.npm.sankuai.com/strip-ansi/download/strip-ansi-6.0.1.tgz}
+    engines: {node: '>=8'}
+
+  strtok3@6.3.0:
+    resolution: {integrity: sha1-NYuA/+bV1WIOGaBzqnjOlHqQ+aA=, tarball: http://r.npm.sankuai.com/strtok3/download/strtok3-6.3.0.tgz}
+    engines: {node: '>=10'}
+
+  supports-color@7.2.0:
+    resolution: {integrity: sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=, tarball: http://r.npm.sankuai.com/supports-color/download/supports-color-7.2.0.tgz}
+    engines: {node: '>=8'}
+
+  token-types@4.2.1:
+    resolution: {integrity: sha1-D4l/A2ZYRpgoBuE4l32+ctRN91M=, tarball: http://r.npm.sankuai.com/token-types/download/token-types-4.2.1.tgz}
+    engines: {node: '>=10'}
+
+  tough-cookie@4.1.4:
+    resolution: {integrity: sha1-lF8UYbRbWox2ghwz6knDrBksGzY=, tarball: http://r.npm.sankuai.com/tough-cookie/download/tough-cookie-4.1.4.tgz}
+    engines: {node: '>=6'}
+
+  tr46@0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=, tarball: http://r.npm.sankuai.com/tr46/download/tr46-0.0.3.tgz}
+
+  ts-error@1.0.6:
+    resolution: {integrity: sha1-J3SW8qKN5sGEz86N/VzdA6TmsPw=, tarball: http://r.npm.sankuai.com/ts-error/download/ts-error-1.0.6.tgz}
+
+  typescript@5.8.3:
+    resolution: {integrity: sha1-kvij5ePPSXNW9BeMNM1lp/XoRA4=, tarball: http://r.npm.sankuai.com/typescript/download/typescript-5.8.3.tgz}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@5.26.5:
+    resolution: {integrity: sha1-vNU5iT0AtW6WT9JlekhmsiGmVhc=, tarball: http://r.npm.sankuai.com/undici-types/download/undici-types-5.26.5.tgz}
+
+  undici-types@6.21.0:
+    resolution: {integrity: sha1-aR0ArzkJvpOn+qE75hs6W1DvEss=, tarball: http://r.npm.sankuai.com/undici-types/download/undici-types-6.21.0.tgz}
+
+  universalify@0.2.0:
+    resolution: {integrity: sha1-ZFF2BWb6hXU0dFqx3elS0bF2G+A=, tarball: http://r.npm.sankuai.com/universalify/download/universalify-0.2.0.tgz}
+    engines: {node: '>= 4.0.0'}
+
+  url-parse@1.5.10:
+    resolution: {integrity: sha1-nTwvc2wddd070r5QfcwRHx4uqcE=, tarball: http://r.npm.sankuai.com/url-parse/download/url-parse-1.5.10.tgz}
+
+  uuid@10.0.0:
+    resolution: {integrity: sha1-WpWqRU5uACclx5BV/UKqujDKYpQ=, tarball: http://r.npm.sankuai.com/uuid/download/uuid-10.0.0.tgz}
+    hasBin: true
+
+  uuid@9.0.1:
+    resolution: {integrity: sha1-4YjUyIU8xyIiA5LEJM1jfzIpPzA=, tarball: http://r.npm.sankuai.com/uuid/download/uuid-9.0.1.tgz}
+    hasBin: true
+
+  weaviate-client@3.6.0:
+    resolution: {integrity: sha1-GyuGc22862535V2MDDhenkboPfA=, tarball: http://r.npm.sankuai.com/weaviate-client/download/weaviate-client-3.6.0.tgz}
+    engines: {node: '>=18.0.0'}
+
+  web-streams-polyfill@4.0.0-beta.3:
+    resolution: {integrity: sha1-KJhIa3T1FWCV5HPv6Ync8YUEejg=, tarball: http://r.npm.sankuai.com/web-streams-polyfill/download/web-streams-polyfill-4.0.0-beta.3.tgz}
+    engines: {node: '>= 14'}
+
+  webidl-conversions@3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=, tarball: http://r.npm.sankuai.com/webidl-conversions/download/webidl-conversions-3.0.1.tgz}
+
+  whatwg-url@5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=, tarball: http://r.npm.sankuai.com/whatwg-url/download/whatwg-url-5.0.0.tgz}
+
+  wrap-ansi@7.0.0:
+    resolution: {integrity: sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM=, tarball: http://r.npm.sankuai.com/wrap-ansi/download/wrap-ansi-7.0.0.tgz}
+    engines: {node: '>=10'}
+
+  ws@8.18.2:
+    resolution: {integrity: sha1-QnOLK+V87YX0YVQyCqu1GrADcFo=, tarball: http://r.npm.sankuai.com/ws/download/ws-8.18.2.tgz}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  y18n@5.0.8:
+    resolution: {integrity: sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU=, tarball: http://r.npm.sankuai.com/y18n/download/y18n-5.0.8.tgz}
+    engines: {node: '>=10'}
+
+  yaml@2.8.0:
+    resolution: {integrity: sha1-FfjJhmIRvcLTeBoIkORNT6Gl//Y=, tarball: http://r.npm.sankuai.com/yaml/download/yaml-2.8.0.tgz}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
+  yargs-parser@21.1.1:
+    resolution: {integrity: sha1-kJa87r+ZDSG7MfqVFuDt4pSnfTU=, tarball: http://r.npm.sankuai.com/yargs-parser/download/yargs-parser-21.1.1.tgz}
+    engines: {node: '>=12'}
+
+  yargs@17.7.2:
+    resolution: {integrity: sha1-mR3zmspnWhkrgW4eA2P5110qomk=, tarball: http://r.npm.sankuai.com/yargs/download/yargs-17.7.2.tgz}
+    engines: {node: '>=12'}
+
+  zod-to-json-schema@3.24.5:
+    resolution: {integrity: sha1-0QlUQLFH+3wgk4EqU8VN+NXfUKM=, tarball: http://r.npm.sankuai.com/zod-to-json-schema/download/zod-to-json-schema-3.24.5.tgz}
+    peerDependencies:
+      zod: ^3.24.1
+
+  zod@3.25.57:
+    resolution: {integrity: sha1-MXyKbrioRgu0tY3vsZ6LUMEgDlE=, tarball: http://r.npm.sankuai.com/zod/download/zod-3.25.57.tgz}
+
+snapshots:
+
+  '@anthropic-ai/sdk@0.27.3':
+    dependencies:
+      '@types/node': 18.19.111
+      '@types/node-fetch': 2.6.12
+      abort-controller: 3.0.0
+      agentkeepalive: 4.6.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@browserbasehq/sdk@2.6.0':
+    dependencies:
+      '@types/node': 18.19.111
+      '@types/node-fetch': 2.6.12
+      abort-controller: 3.0.0
+      agentkeepalive: 4.6.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(zod@3.25.57)':
+    dependencies:
+      '@anthropic-ai/sdk': 0.27.3
+      '@browserbasehq/sdk': 2.6.0
+      '@playwright/test': 1.52.0
+      deepmerge: 4.3.1
+      dotenv: 16.5.0
+      openai: 4.104.0(ws@8.18.2)(zod@3.25.57)
+      ws: 8.18.2
+      zod: 3.25.57
+      zod-to-json-schema: 3.24.5(zod@3.25.57)
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - utf-8-validate
+
+  '@cfworker/json-schema@4.1.1': {}
+
+  '@graphql-typed-document-node/core@3.2.0(graphql@16.11.0)':
+    dependencies:
+      graphql: 16.11.0
+
+  '@grpc/grpc-js@1.13.4':
+    dependencies:
+      '@grpc/proto-loader': 0.7.15
+      '@js-sdsl/ordered-map': 4.4.2
+
+  '@grpc/proto-loader@0.7.15':
+    dependencies:
+      lodash.camelcase: 4.3.0
+      long: 5.3.2
+      protobufjs: 7.5.3
+      yargs: 17.7.2
+
+  '@ibm-cloud/watsonx-ai@1.6.7':
+    dependencies:
+      '@types/node': 18.19.111
+      extend: 3.0.2
+      ibm-cloud-sdk-core: 5.4.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@js-sdsl/ordered-map@4.4.2': {}
+
+  '@langchain/community@0.3.45(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(zod@3.25.57))(@ibm-cloud/watsonx-ai@1.6.7)(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(axios@1.9.0)(ibm-cloud-sdk-core@5.4.0)(jsonwebtoken@9.0.2)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(pdf-parse@1.1.1)(playwright@1.52.0)(weaviate-client@3.6.0)(ws@8.18.2)':
+    dependencies:
+      '@browserbasehq/stagehand': 1.14.0(@playwright/test@1.52.0)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(zod@3.25.57)
+      '@ibm-cloud/watsonx-ai': 1.6.7
+      '@langchain/core': 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      '@langchain/openai': 0.5.12(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(ws@8.18.2)
+      '@langchain/weaviate': 0.2.0(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))
+      binary-extensions: 2.3.0
+      expr-eval: 2.0.2
+      flat: 5.0.2
+      ibm-cloud-sdk-core: 5.4.0
+      js-yaml: 4.1.0
+      langchain: 0.3.27(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(axios@1.9.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(ws@8.18.2)
+      langsmith: 0.3.30(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      openai: 4.104.0(ws@8.18.2)(zod@3.25.57)
+      uuid: 10.0.0
+      zod: 3.25.57
+      zod-to-json-schema: 3.24.5(zod@3.25.57)
+    optionalDependencies:
+      '@browserbasehq/sdk': 2.6.0
+      jsonwebtoken: 9.0.2
+      pdf-parse: 1.1.1
+      playwright: 1.52.0
+      weaviate-client: 3.6.0
+      ws: 8.18.2
+    transitivePeerDependencies:
+      - '@langchain/anthropic'
+      - '@langchain/aws'
+      - '@langchain/cerebras'
+      - '@langchain/cohere'
+      - '@langchain/deepseek'
+      - '@langchain/google-genai'
+      - '@langchain/google-vertexai'
+      - '@langchain/google-vertexai-web'
+      - '@langchain/groq'
+      - '@langchain/mistralai'
+      - '@langchain/ollama'
+      - '@langchain/xai'
+      - axios
+      - encoding
+      - handlebars
+      - peggy
+
+  '@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))':
+    dependencies:
+      '@cfworker/json-schema': 4.1.1
+      ansi-styles: 5.2.0
+      camelcase: 6.3.0
+      decamelize: 1.2.0
+      js-tiktoken: 1.0.20
+      langsmith: 0.3.30(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      mustache: 4.2.0
+      p-queue: 6.6.2
+      p-retry: 4.6.2
+      uuid: 10.0.0
+      zod: 3.25.57
+      zod-to-json-schema: 3.24.5(zod@3.25.57)
+    transitivePeerDependencies:
+      - openai
+
+  '@langchain/openai@0.5.12(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(ws@8.18.2)':
+    dependencies:
+      '@langchain/core': 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      js-tiktoken: 1.0.20
+      openai: 4.104.0(ws@8.18.2)(zod@3.25.57)
+      zod: 3.25.57
+      zod-to-json-schema: 3.24.5(zod@3.25.57)
+    transitivePeerDependencies:
+      - encoding
+      - ws
+
+  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))':
+    dependencies:
+      '@langchain/core': 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      js-tiktoken: 1.0.20
+
+  '@langchain/weaviate@0.2.0(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))':
+    dependencies:
+      '@langchain/core': 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      uuid: 10.0.0
+      weaviate-client: 3.6.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@playwright/test@1.52.0':
+    dependencies:
+      playwright: 1.52.0
+
+  '@protobufjs/aspromise@1.1.2': {}
+
+  '@protobufjs/base64@1.1.2': {}
+
+  '@protobufjs/codegen@2.0.4': {}
+
+  '@protobufjs/eventemitter@1.1.0': {}
+
+  '@protobufjs/fetch@1.1.0':
+    dependencies:
+      '@protobufjs/aspromise': 1.1.2
+      '@protobufjs/inquire': 1.1.0
+
+  '@protobufjs/float@1.0.2': {}
+
+  '@protobufjs/inquire@1.1.0': {}
+
+  '@protobufjs/path@1.1.2': {}
+
+  '@protobufjs/pool@1.1.0': {}
+
+  '@protobufjs/utf8@1.1.0': {}
+
+  '@tokenizer/token@0.3.0': {}
+
+  '@types/debug@4.1.12':
+    dependencies:
+      '@types/ms': 2.1.0
+
+  '@types/ms@2.1.0': {}
+
+  '@types/node-fetch@2.6.12':
+    dependencies:
+      '@types/node': 22.15.30
+      form-data: 4.0.3
+
+  '@types/node@18.19.111':
+    dependencies:
+      undici-types: 5.26.5
+
+  '@types/node@22.15.30':
+    dependencies:
+      undici-types: 6.21.0
+
+  '@types/retry@0.12.0': {}
+
+  '@types/tough-cookie@4.0.5': {}
+
+  '@types/uuid@10.0.0': {}
+
+  abort-controller-x@0.4.3: {}
+
+  abort-controller@3.0.0:
+    dependencies:
+      event-target-shim: 5.0.1
+
+  agentkeepalive@4.6.0:
+    dependencies:
+      humanize-ms: 1.2.1
+
+  ansi-regex@5.0.1: {}
+
+  ansi-styles@4.3.0:
+    dependencies:
+      color-convert: 2.0.1
+
+  ansi-styles@5.2.0: {}
+
+  argparse@2.0.1: {}
+
+  asynckit@0.4.0: {}
+
+  axios@1.9.0(debug@4.4.1):
+    dependencies:
+      follow-redirects: 1.15.9(debug@4.4.1)
+      form-data: 4.0.3
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
+  base64-js@1.5.1: {}
+
+  binary-extensions@2.3.0: {}
+
+  buffer-equal-constant-time@1.0.1: {}
+
+  buffer@6.0.3:
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+
+  call-bind-apply-helpers@1.0.2:
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+
+  camelcase@6.3.0: {}
+
+  chalk@4.1.2:
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+
+  cliui@8.0.1:
+    dependencies:
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      wrap-ansi: 7.0.0
+
+  color-convert@2.0.1:
+    dependencies:
+      color-name: 1.1.4
+
+  color-name@1.1.4: {}
+
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
+
+  console-table-printer@2.14.2:
+    dependencies:
+      simple-wcswidth: 1.0.1
+
+  cross-fetch@3.2.0:
+    dependencies:
+      node-fetch: 2.7.0
+    transitivePeerDependencies:
+      - encoding
+
+  debug@3.2.7:
+    dependencies:
+      ms: 2.1.3
+
+  debug@4.4.1:
+    dependencies:
+      ms: 2.1.3
+
+  decamelize@1.2.0: {}
+
+  deepmerge@4.3.1: {}
+
+  delayed-stream@1.0.0: {}
+
+  dotenv@16.5.0: {}
+
+  dunder-proto@1.0.1:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-errors: 1.3.0
+      gopd: 1.2.0
+
+  ecdsa-sig-formatter@1.0.11:
+    dependencies:
+      safe-buffer: 5.2.1
+
+  emoji-regex@8.0.0: {}
+
+  es-define-property@1.0.1: {}
+
+  es-errors@1.3.0: {}
+
+  es-object-atoms@1.1.1:
+    dependencies:
+      es-errors: 1.3.0
+
+  es-set-tostringtag@2.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      get-intrinsic: 1.3.0
+      has-tostringtag: 1.0.2
+      hasown: 2.0.2
+
+  escalade@3.2.0: {}
+
+  event-target-shim@5.0.1: {}
+
+  eventemitter3@4.0.7: {}
+
+  events@3.3.0: {}
+
+  expr-eval@2.0.2: {}
+
+  extend@3.0.2: {}
+
+  file-type@16.5.4:
+    dependencies:
+      readable-web-to-node-stream: 3.0.4
+      strtok3: 6.3.0
+      token-types: 4.2.1
+
+  flat@5.0.2: {}
+
+  follow-redirects@1.15.9(debug@4.4.1):
+    optionalDependencies:
+      debug: 4.4.1
+
+  form-data-encoder@1.7.2: {}
+
+  form-data@4.0.0:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+
+  form-data@4.0.3:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
+      mime-types: 2.1.35
+
+  formdata-node@4.4.1:
+    dependencies:
+      node-domexception: 1.0.0
+      web-streams-polyfill: 4.0.0-beta.3
+
+  fsevents@2.3.2:
+    optional: true
+
+  function-bind@1.1.2: {}
+
+  get-caller-file@2.0.5: {}
+
+  get-intrinsic@1.3.0:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-define-property: 1.0.1
+      es-errors: 1.3.0
+      es-object-atoms: 1.1.1
+      function-bind: 1.1.2
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      has-symbols: 1.1.0
+      hasown: 2.0.2
+      math-intrinsics: 1.1.0
+
+  get-proto@1.0.1:
+    dependencies:
+      dunder-proto: 1.0.1
+      es-object-atoms: 1.1.1
+
+  gopd@1.2.0: {}
+
+  graphql-request@6.1.0(graphql@16.11.0):
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0(graphql@16.11.0)
+      cross-fetch: 3.2.0
+      graphql: 16.11.0
+    transitivePeerDependencies:
+      - encoding
+
+  graphql@16.11.0: {}
+
+  has-flag@4.0.0: {}
+
+  has-symbols@1.1.0: {}
+
+  has-tostringtag@1.0.2:
+    dependencies:
+      has-symbols: 1.1.0
+
+  hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
+
+  humanize-ms@1.2.1:
+    dependencies:
+      ms: 2.1.3
+
+  ibm-cloud-sdk-core@5.4.0:
+    dependencies:
+      '@types/debug': 4.1.12
+      '@types/node': 18.19.111
+      '@types/tough-cookie': 4.0.5
+      axios: 1.9.0(debug@4.4.1)
+      camelcase: 6.3.0
+      debug: 4.4.1
+      dotenv: 16.5.0
+      extend: 3.0.2
+      file-type: 16.5.4
+      form-data: 4.0.0
+      isstream: 0.1.2
+      jsonwebtoken: 9.0.2
+      mime-types: 2.1.35
+      retry-axios: 2.6.0(axios@1.9.0)
+      tough-cookie: 4.1.4
+    transitivePeerDependencies:
+      - supports-color
+
+  ieee754@1.2.1: {}
+
+  is-fullwidth-code-point@3.0.0: {}
+
+  isstream@0.1.2: {}
+
+  js-tiktoken@1.0.20:
+    dependencies:
+      base64-js: 1.5.1
+
+  js-yaml@4.1.0:
+    dependencies:
+      argparse: 2.0.1
+
+  jsonpointer@5.0.1: {}
+
+  jsonwebtoken@9.0.2:
+    dependencies:
+      jws: 3.2.2
+      lodash.includes: 4.3.0
+      lodash.isboolean: 3.0.3
+      lodash.isinteger: 4.0.4
+      lodash.isnumber: 3.0.3
+      lodash.isplainobject: 4.0.6
+      lodash.isstring: 4.0.1
+      lodash.once: 4.1.1
+      ms: 2.1.3
+      semver: 7.7.2
+
+  jwa@1.4.2:
+    dependencies:
+      buffer-equal-constant-time: 1.0.1
+      ecdsa-sig-formatter: 1.0.11
+      safe-buffer: 5.2.1
+
+  jws@3.2.2:
+    dependencies:
+      jwa: 1.4.2
+      safe-buffer: 5.2.1
+
+  langchain@0.3.27(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(axios@1.9.0)(openai@4.104.0(ws@8.18.2)(zod@3.25.57))(ws@8.18.2):
+    dependencies:
+      '@langchain/core': 0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      '@langchain/openai': 0.5.12(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))(ws@8.18.2)
+      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.57(openai@4.104.0(ws@8.18.2)(zod@3.25.57)))
+      js-tiktoken: 1.0.20
+      js-yaml: 4.1.0
+      jsonpointer: 5.0.1
+      langsmith: 0.3.30(openai@4.104.0(ws@8.18.2)(zod@3.25.57))
+      openapi-types: 12.1.3
+      p-retry: 4.6.2
+      uuid: 10.0.0
+      yaml: 2.8.0
+      zod: 3.25.57
+      zod-to-json-schema: 3.24.5(zod@3.25.57)
+    optionalDependencies:
+      axios: 1.9.0(debug@4.4.1)
+    transitivePeerDependencies:
+      - encoding
+      - openai
+      - ws
+
+  langsmith@0.3.30(openai@4.104.0(ws@8.18.2)(zod@3.25.57)):
+    dependencies:
+      '@types/uuid': 10.0.0
+      chalk: 4.1.2
+      console-table-printer: 2.14.2
+      p-queue: 6.6.2
+      p-retry: 4.6.2
+      semver: 7.7.2
+      uuid: 10.0.0
+    optionalDependencies:
+      openai: 4.104.0(ws@8.18.2)(zod@3.25.57)
+
+  lodash.camelcase@4.3.0: {}
+
+  lodash.includes@4.3.0: {}
+
+  lodash.isboolean@3.0.3: {}
+
+  lodash.isinteger@4.0.4: {}
+
+  lodash.isnumber@3.0.3: {}
+
+  lodash.isplainobject@4.0.6: {}
+
+  lodash.isstring@4.0.1: {}
+
+  lodash.once@4.1.1: {}
+
+  long@5.3.2: {}
+
+  math-intrinsics@1.1.0: {}
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
+
+  ms@2.1.3: {}
+
+  mustache@4.2.0: {}
+
+  nice-grpc-client-middleware-retry@3.1.11:
+    dependencies:
+      abort-controller-x: 0.4.3
+      nice-grpc-common: 2.0.2
+
+  nice-grpc-common@2.0.2:
+    dependencies:
+      ts-error: 1.0.6
+
+  nice-grpc@2.1.12:
+    dependencies:
+      '@grpc/grpc-js': 1.13.4
+      abort-controller-x: 0.4.3
+      nice-grpc-common: 2.0.2
+
+  node-domexception@1.0.0: {}
+
+  node-ensure@0.0.0: {}
+
+  node-fetch@2.7.0:
+    dependencies:
+      whatwg-url: 5.0.0
+
+  openai@4.104.0(ws@8.18.2)(zod@3.25.57):
+    dependencies:
+      '@types/node': 18.19.111
+      '@types/node-fetch': 2.6.12
+      abort-controller: 3.0.0
+      agentkeepalive: 4.6.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0
+    optionalDependencies:
+      ws: 8.18.2
+      zod: 3.25.57
+    transitivePeerDependencies:
+      - encoding
+
+  openapi-types@12.1.3: {}
+
+  p-finally@1.0.0: {}
+
+  p-queue@6.6.2:
+    dependencies:
+      eventemitter3: 4.0.7
+      p-timeout: 3.2.0
+
+  p-retry@4.6.2:
+    dependencies:
+      '@types/retry': 0.12.0
+      retry: 0.13.1
+
+  p-timeout@3.2.0:
+    dependencies:
+      p-finally: 1.0.0
+
+  pdf-parse@1.1.1:
+    dependencies:
+      debug: 3.2.7
+      node-ensure: 0.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  peek-readable@4.1.0: {}
+
+  playwright-core@1.52.0: {}
+
+  playwright@1.52.0:
+    dependencies:
+      playwright-core: 1.52.0
+    optionalDependencies:
+      fsevents: 2.3.2
+
+  process@0.11.10: {}
+
+  protobufjs@7.5.3:
+    dependencies:
+      '@protobufjs/aspromise': 1.1.2
+      '@protobufjs/base64': 1.1.2
+      '@protobufjs/codegen': 2.0.4
+      '@protobufjs/eventemitter': 1.1.0
+      '@protobufjs/fetch': 1.1.0
+      '@protobufjs/float': 1.0.2
+      '@protobufjs/inquire': 1.1.0
+      '@protobufjs/path': 1.1.2
+      '@protobufjs/pool': 1.1.0
+      '@protobufjs/utf8': 1.1.0
+      '@types/node': 22.15.30
+      long: 5.3.2
+
+  proxy-from-env@1.1.0: {}
+
+  psl@1.15.0:
+    dependencies:
+      punycode: 2.3.1
+
+  punycode@2.3.1: {}
+
+  querystringify@2.2.0: {}
+
+  readable-stream@4.7.0:
+    dependencies:
+      abort-controller: 3.0.0
+      buffer: 6.0.3
+      events: 3.3.0
+      process: 0.11.10
+      string_decoder: 1.3.0
+
+  readable-web-to-node-stream@3.0.4:
+    dependencies:
+      readable-stream: 4.7.0
+
+  require-directory@2.1.1: {}
+
+  requires-port@1.0.0: {}
+
+  retry-axios@2.6.0(axios@1.9.0):
+    dependencies:
+      axios: 1.9.0(debug@4.4.1)
+
+  retry@0.13.1: {}
+
+  safe-buffer@5.2.1: {}
+
+  semver@7.7.2: {}
+
+  simple-wcswidth@1.0.1: {}
+
+  string-width@4.2.3:
+    dependencies:
+      emoji-regex: 8.0.0
+      is-fullwidth-code-point: 3.0.0
+      strip-ansi: 6.0.1
+
+  string_decoder@1.3.0:
+    dependencies:
+      safe-buffer: 5.2.1
+
+  strip-ansi@6.0.1:
+    dependencies:
+      ansi-regex: 5.0.1
+
+  strtok3@6.3.0:
+    dependencies:
+      '@tokenizer/token': 0.3.0
+      peek-readable: 4.1.0
+
+  supports-color@7.2.0:
+    dependencies:
+      has-flag: 4.0.0
+
+  token-types@4.2.1:
+    dependencies:
+      '@tokenizer/token': 0.3.0
+      ieee754: 1.2.1
+
+  tough-cookie@4.1.4:
+    dependencies:
+      psl: 1.15.0
+      punycode: 2.3.1
+      universalify: 0.2.0
+      url-parse: 1.5.10
+
+  tr46@0.0.3: {}
+
+  ts-error@1.0.6: {}
+
+  typescript@5.8.3: {}
+
+  undici-types@5.26.5: {}
+
+  undici-types@6.21.0: {}
+
+  universalify@0.2.0: {}
+
+  url-parse@1.5.10:
+    dependencies:
+      querystringify: 2.2.0
+      requires-port: 1.0.0
+
+  uuid@10.0.0: {}
+
+  uuid@9.0.1: {}
+
+  weaviate-client@3.6.0:
+    dependencies:
+      abort-controller-x: 0.4.3
+      graphql: 16.11.0
+      graphql-request: 6.1.0(graphql@16.11.0)
+      long: 5.3.2
+      nice-grpc: 2.1.12
+      nice-grpc-client-middleware-retry: 3.1.11
+      nice-grpc-common: 2.0.2
+      uuid: 9.0.1
+    transitivePeerDependencies:
+      - encoding
+
+  web-streams-polyfill@4.0.0-beta.3: {}
+
+  webidl-conversions@3.0.1: {}
+
+  whatwg-url@5.0.0:
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
+
+  wrap-ansi@7.0.0:
+    dependencies:
+      ansi-styles: 4.3.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+
+  ws@8.18.2: {}
+
+  y18n@5.0.8: {}
+
+  yaml@2.8.0: {}
+
+  yargs-parser@21.1.1: {}
+
+  yargs@17.7.2:
+    dependencies:
+      cliui: 8.0.1
+      escalade: 3.2.0
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      string-width: 4.2.3
+      y18n: 5.0.8
+      yargs-parser: 21.1.1
+
+  zod-to-json-schema@3.24.5(zod@3.25.57):
+    dependencies:
+      zod: 3.25.57
+
+  zod@3.25.57: {}
